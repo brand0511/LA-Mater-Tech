@@ -1,0 +1,39 @@
+
+
+/**Couleur des variables**/
+:root{
+  --base : #000000;   
+  --primary: #378ee6 ;
+  --secondary: #ffffff ;
+  --success: #19ee19 ;
+  --info : #df0d0d ;
+}
+  body{
+    font-family: lucida sans;
+    background: url(bed.jpg);
+    background-size: cover;
+    height:600px;
+  }
+
+  /*Header*/
+  header{
+    height: auto;
+    padding: 10px 0 ;
+    border-bottom: auto solid #000;
+  }
+  header .logo h2{
+    font-size: 35px;
+  }
+  header nav .nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+  }
+ 
+  header nav .nav-list .list a{
+    display: block;
+    padding: 15px;
+    margin : 9px 0;
+    text-decoration: none;
+  }
