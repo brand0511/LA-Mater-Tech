@@ -8,11 +8,9 @@
   --success: #19ee19 ;
   --info : #df0d0d ;
 }
-  body{
-    font-family: lucida sans;
-    background: url(bed.jpg);
-    background-size: cover;
-    height:600px;
+  .body{
+   font-family: lucida sans;
+ 
   }
 
   /*Header*/
@@ -24,16 +22,54 @@
   header .logo h2{
     font-size: 35px;
   }
+
+  header .container-fluid {
+    padding: 0px 0;
+    background: url(bed.jpg); 
+    background-size: cover;
+    height: 300px;
+    background-repeat: no-repeat;
+    opacity: var(--base);
+    
+  }
+
+
   header nav .nav-list{
     list-style: none;
     display: flex;
     justify-content: space-around;
     margin-bottom: 0;
   }
+
+ .container-fluid button.button{
+    position:center;  
+
+    box-sizing: content-box;
+  }
+   
  
   header nav .nav-list .list a{
     display: block;
     padding: 15px;
     margin : 9px 0;
     text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  header nav .nav-list .list a:hover{
+      color:#378ee6;
+  }
+
+  .container-fluid button.button{
+    color: #ffffff;
+    font-size: large;
+    box-sizing: content-box;
+    justify-content: space-around;
+
+  }
+  
+  p {
+    text-align: center;
+  }
+  footer{
+    color: #378ee6;
   }
