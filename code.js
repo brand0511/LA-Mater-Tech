@@ -1,9 +1,7 @@
-let loginForm = document.querySelector('.container .body .form.loginForm');
+$('.navTrigger').click(function () {
+    $(this).toggleClass('active');
+    console.log("Clicked menu");
+    $("#mainListDiv").toggleClass("show_list");
+    $("#mainListDiv").fadeIn();
 
-document.querySelector('login').onclick = () => {
-    loginForm.classList.toggle('login');
-}
-
-document.querySelector('#close-login-btn').onclick = () => {
-    loginForm.classList.remove('login');
-}
+});
